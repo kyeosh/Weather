@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html>
+<body style="background-color:lightseagreen;">
 	<head>
 		<title> Weather Station </title>
 	</head>
@@ -14,9 +15,12 @@
 
 		<h2 style="text-align: center;">Humidity</h2>
 			<p style="text-align: center;"><strong>{{ humidity }}%</strong> relative humidity</p>
+		
 		<h2 style="text-align: center;">Air Pressure</h2>
 			<p style="text-align: center;"><strong>{{ inpressure }} </strong> inHg </p>
 			<p style="text-align: center;"><strong>{{ pressure }} </strong> mBar </p>
+		<h2 style="text-align: center;">Current Regional Precipitation</h2>
 			<div style="text-align: center;"><img src="https://s.w-x.co/staticmaps/wu/wxtype/county_loc/rno/animate.png"></div>
+			<a href="https://windy.com/"><p style="text-align: center; font-size:200%"> Windy </a>
 		</body>
 </html>
